@@ -974,10 +974,10 @@
   <!-- JAVASCRIPT CORE APPLICATION                              -->
   <!-- ======================================================== -->
   <script>
-    let IS_PREVIEW = true;
-    let SUPABASE_URL = localStorage.getItem('edugo_supabase_url') || "https://YOUR_SUPABASE_PROJECT.supabase.co";
-    let SUPABASE_ANON_KEY = localStorage.getItem('edugo_supabase_key') || "YOUR_SUPABASE_ANON_KEY";
-    let GOOGLE_DRIVE_WEBHOOK_URL = "";
+    let IS_PREVIEW = false;
+    let SUPABASE_URL = localStorage.getItem('edugo_supabase_url') || "https://iujkeittpbrlnebbmphe.supabase.co";
+    let SUPABASE_ANON_KEY = localStorage.getItem('edugo_supabase_key') || "sb_publishable_L2TSEdUAlEElaNUjnGtXLA_R8g3UckF";
+    let GOOGLE_DRIVE_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwn5JX_aZLy80_KaHMkZSlllBqKN1-HfLIkJQAszqX8LFmYx9T9_GqHcp8mfl4wNcCf-w/exec";
 
     let supabaseClient = null;
     function initSupabaseConnection(customUrl, customKey) {
